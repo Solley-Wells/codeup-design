@@ -1,0 +1,200 @@
+/* General Styles and Variables */
+:root {
+    --abel-font: 'Abel', sans-serif;
+    --anton-font: 'Anton', sans-serif;
+    --main-bg-color: #F0F0F0;
+    --main-bg-accent-color: #E6E6E6;
+    --design-color: #E6563B;
+    --develop-color: #EB9D3A;
+    --support-color: #7CB06C;
+    --host-color: #00ABA9;
+    --logo-size: 105px;
+    --icon-size: 18px;
+
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+/* Navigation Styles */
+.logo {
+    width: var(--logo-size);
+    height: var(--logo-size);
+}
+
+.logo-name {
+    font-family: var(--abel-font);
+    font-size: 2rem;
+    color: #000;
+}
+
+.nav-link-custom {
+    text-transform: uppercase;
+}
+
+
+
+/* About Company Section Styles */
+
+.company-products {
+    font-family: var(--anton-font);
+}
+
+.company-location {
+    font-family: var(--anton-font);
+}
+
+.circle-spacing {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.circle-design {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    color: white;
+    border: 5px solid white;
+    background-color: var(--design-color);
+    font-family: var(--anton-font);
+    text-transform: uppercase;
+}
+
+.circle-develop {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    color: white;
+    border: 5px solid white;
+    background-color: var(--develop-color);
+    font-family: var(--anton-font);
+    text-transform: uppercase;
+}
+
+.circle-support {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    color: white;
+    border: 5px solid white;
+    background-color: var(--support-color);
+    font-family: var(--anton-font);
+    text-transform: uppercase;
+}
+
+.circle-host {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    color: white;
+    border: 5px solid white;
+    background-color: var(--host-color);
+    font-family: var(--anton-font);
+    text-transform: uppercase;
+}
+
+
+.circle-text {
+    font-family: var(--anton-font);
+
+}
+
+
+/* Selected Work Section Styles */
+
+.container-custom {
+    font-family: var(--abel-font);
+}
+
+.design {
+    background-color: var(--design-color);
+    width: auto;
+    height: auto;
+}
+
+.develop {
+    background-color: var(--develop-color);
+}
+
+.support {
+    background-color: var(--support-color);
+}
+
+.host {
+    background-color: var(--host-color);
+}
+
+.letter-icon-shape {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    font-family: var(--anton-font);
+    text-transform: uppercase;
+}
+
+.letter-icon-text {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+
+.img-bg-custom {
+    background-color: var(--main-bg-accent-color);
+}
+
+.card-bg-custom {
+    background-color: var(--main-bg-color);
+}
+
+
+/* Aside Section Styles */
+
+.aside-article {
+    margin: 1rem 0rem 1rem 5rem;
+    font-family: var(--anton-font);
+}
+
+.aside-image {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    border: 3px solid #e6e6e6;
+    border-radius: 2px;
+}
+
+.tweet {
+    display: flex;
+    margin: 1rem 0rem 1rem 5rem;
+}
+
+.tweet-content {
+    display: flex;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+/* Custom Media Queries For Small Devices */
+@media screen and (min-width:300px) and (max-width: 767px) {
+
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 3rem;
+    }
+
+    .small-screen {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem 6rem;
+    }
+
+}
