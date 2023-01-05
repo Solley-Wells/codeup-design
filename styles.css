@@ -26,6 +26,7 @@ body {
 .nav-link-custom {
     text-transform: uppercase;
 }
+
 .logo {
     width:var(--logo-size);
     height:var(--logo-size);
@@ -42,16 +43,17 @@ body {
 .company-products{
     font-family: var(--anton-font);
 }
+
 .company-location{
     font-family: var(--anton-font);
 }
-
 
 .circle-spacing {
   margin-left: 3rem;
   margin-right: 3rem;
   margin-top: 3rem;
 }
+
 .circle-design {
   width: var(--logo-size);
   height: var(--logo-size);
@@ -61,6 +63,7 @@ body {
   font-family: var(--anton-font);
   text-transform: uppercase;
 }
+
 .circle-develop {
   width: var(--logo-size);
   height: var(--logo-size);
@@ -70,6 +73,7 @@ body {
   font-family: var(--anton-font);
   text-transform: uppercase;
 }
+
 .circle-support {
   width: var(--logo-size);
   height: var(--logo-size);
@@ -79,6 +83,7 @@ body {
   font-family: var(--anton-font);
   text-transform: uppercase;
 }
+
 .circle-host {
   width: var(--logo-size);
   height: var(--logo-size);
@@ -92,7 +97,7 @@ body {
 /* Selected Work Section Styles */
 
 .container-custom {
-font-family: var(--abel-font);
+  font-family: var(--abel-font);
 }
 
 .design {
@@ -100,15 +105,19 @@ font-family: var(--abel-font);
   width: auto;
   height: auto;
 }
+
 .develop {
   background-color: var(--develop-color);
 }
+
 .support {
   background-color: var(--support-color);
 }
+
 .host {
   background-color: var(--host-color);
 }
+
 .letter-icon-shape {
   width: 18px;
   height: 18px;
@@ -116,14 +125,17 @@ font-family: var(--abel-font);
   font-family: var(--anton-font);
   text-transform: uppercase;
 }
+
 .letter-icon-text {
   font-size: 12px;
   line-height: 18px;
   text-align: center;
 }
+
 .img-bg-custom {
   background-color: var(--main-bg-accent-color);
 }
+
 .card-bg-custom {
   background-color: var(--main-bg-color);
 }
