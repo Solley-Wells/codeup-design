@@ -173,13 +173,15 @@ body {
 }
 
 
+/***********End of Main CSS Styles***********/
 
+/***********Start of Custom Media Queries***********/
 
-/* Custom Media Queries For Small Devices */
-@media screen and (min-width:300px) and (max-width: 767px) {
+/* Custom Media Queries For X-Small Devices */
+@media screen and (min-width:50px) and (max-width: 566px) {
 
     h1 {
-        font-size: 4rem;
+        font-size: 3.8rem;
         text-align: center;
         text-transform: uppercase;
     }
@@ -196,5 +198,61 @@ body {
         flex-wrap: wrap;
         margin: 1rem 6rem;
     }
-
 }
+
+/* Custom Media Queries For Small Devices */
+@media screen and (min-width:567px) and (max-width: 767px) {
+
+    h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 3rem;
+    }
+
+    .small-screen {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem 6rem;
+    }
+}
+
+/* Custom Media Queries For Medium Devices */
+@media screen and (min-width: 767px) and (max-width: 991px){
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 3rem;
+    }
+}
+
+/* Custom Media Queries For Large Devices */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 3rem;
+    }
+}
+
+/***********End of Custom Media Queries***********/
